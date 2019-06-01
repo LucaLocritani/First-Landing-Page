@@ -57,7 +57,7 @@ section {
 }
 
 section h2 {
-  font-size: 50px;
+  font-size: 15px;
 }
 
 #mainNav {
@@ -300,7 +300,7 @@ section.cta .cta-content {
 }
 
 section.cta .cta-content h2 {
-  font-size: 50px;
+  font-size: 40px;
   max-width: 450px;
   margin-top: 0;
   margin-bottom: 25px;
@@ -309,7 +309,7 @@ section.cta .cta-content h2 {
 
 @media (min-width: 768px) {
   section.cta .cta-content h2 {
-    font-size: 80px;
+    font-size: 60px;
   }
 }
 
