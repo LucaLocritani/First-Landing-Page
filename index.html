@@ -10,6 +10,13 @@
 
   <title>vSolution - Smart solutions for your life</title>
 
+  <!--Nuovo per form -->
+  <link href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,400italic,300italic,300|Raleway:300,400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
@@ -24,7 +31,7 @@
   <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
   <!-- Custom styles for this template -->
-  <link href="css/new-age.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/new-age.css">
 
 </head>
 
@@ -33,7 +40,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><b><strong>vBasket</strong></b><br>Il tuo <b><strong>nuovo amico</strong></b> per la spesa</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><b><strong>vBasket<br>SCAN, SHOP, GO</strong></b></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -59,17 +66,17 @@
       <div class="row h-100">
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
-            <h1 class="mb-5">vBasket è la soluzione che ti permette di risparmiare tempo e <b><strong>denaro</strong></b>!</h1>
+            <h1 class="mb-5">Risparmia tempo e <b><strong>denaro</strong></b> con <b>vBasket</b></h1>
             <h3 class="mb-5">La prima soluzione universale in grado di aumentare il tuo potere acquisto e ridurre drasticamente il tempo di attesa per la fila alle casse.</h3>
             <div class="row">
               <div class="col-lg-6">
                 <div class="feature-item">
-                <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Lascia il tuo<br>contatto</a>
+                  <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Lascia il tuo<br>contatto</a>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
-                <a href="#features" class="btn btn-outline btn-xl js-scroll-trigger">Scopri  come<br>fare</a>
+                  <a href="#features" class="btn btn-outline btn-xl js-scroll-trigger">Scopri  come<br>fare</a>
                 </div>
               </div>
             </div>
@@ -130,7 +137,7 @@
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-bag"></i>
+                  <img src="img/shopping-basket.svg" class="img-fluid style-icon" alt="">
                   <h3>Paniere personale</h3>
                   <p class="text-muted"><b><strong>Riponi</strong></b> gli articoli nella tua busta e <b><strong>dimentica</strong></b> di metterci mano fino al tuo rientro a <b><strong>casa</strong></b>!</p>
                 </div>
@@ -168,72 +175,101 @@
     <div class="overlay"></div>
   </section>
 
+
+
   <section class="download bg-primary text-center" id="download">
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto">
-          <h2 class="section-heading">Discover what all the buzz is about!</h2>
-          <p>Our app is available on any mobile device! Download now to get started!</p>
-          <div class="badges">
+          <h2 class="section-heading">Scopri anche tu di cosa stiamo parlando...</h2>
+          <p>La nostra app sarà presto disponibile sul tuo dispositivo mobile! Lascia la tua mail per essere tra i primi a risparmiare tempo e <b><strong>denaro</strong></b>!</p>
+          <!-- <div class="badges">
             <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
             <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
-          </div>
+          </div> -->
+          <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Registrati!</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="contact bg-primary" id="contact">
+  <section class="bg-primary text-center">
     <div class="container">
-      <h2>We
-        <i class="fas fa-heart"></i>
-        new friends!</h2>
-      <ul class="list-inline list-social">
-        <li class="list-inline-item social-twitter">
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li class="list-inline-item social-facebook">
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </li>
-        <li class="list-inline-item social-google-plus">
-          <a href="#">
-            <i class="fab fa-reddit-alien"></i>
-          </a>
-        </li>
-      </ul>
+      <div class="row2">
+        <h2 class="section-heading text-center">Lavoriamo per te!<br>Coming Soon</h2>
+      </div>
+      <div class="row2">
+        <div id="countdown" data-wow-delay=".3s" data-date="Dec 26, 2016 06:00:00"></div>
+      </div>
+      <h2 class="section-heading spazio-b">Lascia la tua m@il per rimanere aggiornato!</h2>
+      <div class="subcription-info text-center">
+        <form class="subscribe_form" action="#" method="post">
+          <input required="" value="" placeholder="Enter your email..." class="email" id="email" name="email" type="email">
+          <input class="subscribe" name="email" value="Subscribe!" type="submit">
+        </form>
+        <p class="text-muted spazio-t">*No SPAM garantito.</p>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <footer>
-    <div class="container">
-      <p>&copy; Your Website 2019. All Rights Reserved.</p>
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="#">Privacy</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">Terms</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">FAQ</a>
-        </li>
-      </ul>
-    </div>
-  </footer>
+<section class="contact bg-primary" id="contact">
+  <div class="container">
+    <h2>Resta in contatto con noi, seguendoci sui nostri social!<br>Noi <i class="fas fa-heart"></i> i nuovi amici!</h2>
+    <ul class="list-inline list-social">
+      <li class="list-inline-item social-twitter">
+        <a href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li class="list-inline-item social-facebook">
+        <a href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li class="list-inline-item social-google-plus">
+        <a href="#">
+          <i class="fab fa-reddit-alien"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<footer>
+  <div class="container">
+    <p>&copy; Your Website 2019. All Rights Reserved.</p>
+    <ul class="list-inline">
+      <li class="list-inline-item">
+        <a href="#">Privacy</a>
+      </li>
+      <li class="list-inline-item">
+        <a href="#">Terms</a>
+      </li>
+      <li class="list-inline-item">
+        <a href="#">FAQ</a>
+      </li>
+    </ul>
+  </div>
+</footer>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Nuovo -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/custom.js"></script>
+<script src="contactform/contactform.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/new-age.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/new-age.min.js"></script>
 
 </body>
 

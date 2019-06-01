@@ -68,6 +68,7 @@ section h2 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+  padding: 0px!important;
 }
 
 #mainNav .navbar-brand {
@@ -448,4 +449,20 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   width:80px;
   height:83px;
   margin-bottom: 15px;
+}
+
+.row2{
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.spazio-b{
+  margin-bottom:20px;
+}
+
+.spazio-t{
+  margin-top:20px;
 }
