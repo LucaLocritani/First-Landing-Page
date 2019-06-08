@@ -72,7 +72,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
+  color: #cdcccc;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
@@ -160,8 +160,8 @@ header.masthead {
   padding-bottom: 100px;
   color: white;
   background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#FF9800), to(#dc2430));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #FF9800, #dc2430);
+  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#dc2430), to(#FF9800));
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #dc2430, #FF9800);
 }
 
 header.masthead .header-content {
